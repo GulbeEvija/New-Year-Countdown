@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background-color: rgb(4, 18, 30);
+}
+
+#myVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 50px;
+    background-color: rgba(250, 186, 247, 0.815); 
+    padding: 30px;
+    border: 3px solid rgb(2, 4, 71);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.newYear {
+    background-color: #92b8ffc7;
+    height: 300px;
+    width: 300px;
+    margin-top: 50px;
+    border: 3px solid rgb(2, 4, 86);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(2, 4, 71);
+}
+
+
+.days, .hours, .minutes, .seconds {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(2, 4, 71);
+}
+
+.play {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://cdn.glitch.global/089e2b64-5ce8-49cd-9cbf-02be14053590/playbtn2.png?v=1667590167189);
+    background-size: cover;
+    border: 1px solid rgb(2, 4, 71);
+}
+
+
+.pause {
+    background-image: url(https://cdn.glitch.global/089e2b64-5ce8-49cd-9cbf-02be14053590/pausebtn2.png?v=1667590257078);
+}
+
+.backSong {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://cdn.glitch.global/089e2b64-5ce8-49cd-9cbf-02be14053590/backbtn2.png?v=1667589648806);
+    background-size: cover;
+    border: 1px solid rgb(2, 4, 71);
+}
+
+.nextSong {
+    width: 60px;
+    height: 60px;
+    background-image: url(https://cdn.glitch.global/089e2b64-5ce8-49cd-9cbf-02be14053590/nextbtn3.png?v=1667590081608);
+    background-size: cover;
+    border: 1px solid rgb(2, 4, 71);
+}
+
+
+.red {
+    background-color: rgba(247, 189, 0, 0.861);
+    border: none;
+    color: rgb(2, 4, 64);
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 0.5em;
+    border-radius: 20px;
+}
+
+.studyMaterial {
+    color: rgb(23, 3, 3);
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: 2px;
+}
+
+@media all and (max-width: 800px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+
+    .heading {
+        margin-top: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+    
+@media all and (max-width: 500px) {
+    h1 {
+        font-size: 30px;
+    }
+
+}
